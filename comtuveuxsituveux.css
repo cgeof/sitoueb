@@ -1,0 +1,50 @@
+*{
+	text-align: center;
+	
+}
+
+body {
+	background-image: url(https://www.sciencesetavenir.fr/assets/img/2009/03/30/cover-r4x3w1000-57df247de583f-poisson-banc.jpg);
+}
+
+img {
+	width: 200px;
+	height: 300px;
+	object-fit: contain;
+  }
+
+h1 {
+	color: lightgreen;
+}
+
+@keyframes expouet {
+	from {background-color: rgb(132, 0, 255);}
+	to {background-color: rgb(219, 150, 193);}
+  }
+
+p {
+ color:rgb(24, 14, 158);
+ animation-name: expouet;
+ animation-duration: 4s;
+}
+
+.bisou {
+	color: rgb(165, 59, 124);
+	animation-name: expouet;
+	animation-duration: 10s;
+}
+
+.rouge {
+
+	text-align: center;
+	height: 50px;
+	color:red;
+	background: rgb(173,176,226);
+	background: radial-gradient(circle, rgba(173,176,226,1) 0%, rgba(232,209,230,1) 100%);
+
+ 
+}
+
+
+  
+

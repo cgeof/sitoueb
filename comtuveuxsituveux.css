@@ -1,25 +1,33 @@
-*{
-	text-align: center;
-	
-}
+body {
+	display:flex ;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	height: 100vh;
+  }
 
-.demo-wrap {
-    overflow: hidden;
-    position: relative;
+  .bg {
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/17/Acciughe_2.jpg");
+	min-height: 100vh;
+	min-width: 100vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.6;
   }
-  
-.demo-bg {
-    opacity: 0.6;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
+
+  .fg {
+	position: absolute;
+	min-height: 100vh;
+	min-width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
   }
-  
-  .demo-content {
-	position: relative;
-  }
+
+
+	
+ 
+
 
 
 /*body {
@@ -28,7 +36,7 @@
 }*/
 
 
-h1 {
+.lap {
 	color: lightgreen;
 }
 
@@ -66,9 +74,10 @@ p {
 	}
 	
 	.image1 {
-		width: 200px;
-		height: 300px;
+		width: 300px;
+		height: 400px;
 		object-fit: contain;
+		
 		
 	  }
 	  

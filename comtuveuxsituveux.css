@@ -1,4 +1,5 @@
 body {
+	text-align: center;
 	display:flex ;
 	align-items: center;
 	justify-content: center;
@@ -22,6 +23,7 @@ background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/17/Acciu
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: space-around;
   }
 
 
@@ -30,15 +32,9 @@ background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/17/Acciu
 
 
 
-/*body {
-	background-image: url(https://www.sciencesetavenir.fr/assets/img/2009/03/30/cover-r4x3w1000-57df247de583f-poisson-banc.jpg);
-	opacity: 0.4;
-}*/
 
 
-.lap {
-	color: lightgreen;
-}
+
 
 @keyframes expouet {
 	from {background-color: rgb(132, 0, 255);}
@@ -46,19 +42,24 @@ background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/17/Acciu
   }
 
 p {
- color:rgb(24, 14, 158);
+ color:rgb(14, 10, 73);
  animation-name: expouet;
  animation-duration: 4s;
+ width: 100vw;
 }
 
+.lien {
+	color: rgb(165, 59, 124);
+}
 .bisou {
 	color: rgb(165, 59, 124);
+	
 	animation-name: expouet;
 	animation-duration: 10s;
 	background: rgb(173,176,226);
 	background: radial-gradient(circle, rgba(173,176,226,1) 0%, rgba(232,209,230,1) 100%);
+	width: 100vw;
 }
-
 
 
 
@@ -74,8 +75,8 @@ p {
 	}
 	
 	.image1 {
-		width: 300px;
-		height: 400px;
+		width: 320px;
+		height: 410px;
 		object-fit: contain;
 		
 		

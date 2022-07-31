@@ -7,14 +7,27 @@ body {
 	height: 100vh;
   }
 
-  .bg {
-background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/17/Acciughe_2.jpg");
-	min-height: 100vh;
-	min-width: 100vw;
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: 0.6;
+
+
+  .rounded{
+	width: 30px;
+	height: 30px;
+	border: 2px solid #fff;
+	border-radius: 50%;
   }
+  .pointed{
+	width: 7px;
+	height: 7px;
+	background-color: white;
+	border-radius: 50%;
+	margin-bottom: 20rem;
+  }
+  
+
+  
+
+  
+  
 
   .fg {
 	position: absolute;
@@ -25,10 +38,6 @@ background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/17/Acciu
 	align-items: center;
 	justify-content: space-around;
   }
-
-
-	
- 
 
 
 

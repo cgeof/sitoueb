@@ -79,19 +79,41 @@ p {
 	}
 	
 	.image1 {
-		width: 320px;
-		height: 410px;
+		width: 450px;
+		height: 450px;
 		object-fit: contain;
 		
 		
 	  }
-	  
+	  .image2 {
+		width: 300px;
+		height: 300px;
+		object-fit: contain;
+		
+		
+	  }
 	  .blink_me {
 		animation: blinker 1s linear infinite;
 	  }
+
 	  
 	  @keyframes blinker {
 		50% {
 		  opacity: 0;
 		}
+	  }
+	 .test {  width: 100px;
+		height: 50px;
+		background-color: red;
+		position: relative;
+		animation-name: test;
+		animation-duration: 4s;
+		animation-iteration-count: infinite;
+	  }
+	  @keyframes test {
+		0%   {background-color:rgb(173,176,226); left:0px; top:0px;}
+		25%  {background-color:rgb(173,176,226); left:400px; top:0px;}
+		50%  {background-color:rgb(173,176,226); left:0px; top:150px;}
+		75%  {background-color:rgb(173,176,226); left:400px; top:150px;}
+		100% {background-color:rgb(173,176,226); left:0px; top:0px;}
 	  }

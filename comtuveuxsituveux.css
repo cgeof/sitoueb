@@ -9,9 +9,6 @@ cursor: url('../sitoueb/chatpetit.svg'), auto;
   }
   
 
- 
-  
-  
   
 
   .bg {
@@ -82,6 +79,7 @@ p {
 		width: 450px;
 		height: 450px;
 		object-fit: contain;
+	cursor: url('../sitoueb/chatnoir100.svg'), auto; 
 		
 		
 	  }

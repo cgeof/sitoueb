@@ -9,7 +9,6 @@ cursor: url('../sitoueb/chatpetit.svg'), auto;
   }
   
 
-  
 
   .bg {
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/17/Acciughe_2.jpg");
@@ -87,9 +86,18 @@ p {
 		width: 300px;
 		height: 300px;
 		object-fit: contain;
-		
+		cursor: url('../sitoueb/poules100.svg'), auto; 
 		
 	  }
+
+	  .image3 {
+		width: 300px;
+		height: 300px;
+		object-fit: contain;
+		cursor: url('../sitoueb/lapin.svg'), auto; 
+		
+	  }
+
 	  .blink_me {
 		animation: blinker 1s linear infinite;
 	  }

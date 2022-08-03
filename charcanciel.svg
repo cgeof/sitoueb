@@ -8035,19 +8035,70 @@ xz7+zcT/CQFqmZZJvt3/AAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 554.0547 432.485
 		</image>
 	</g>
 	
-		<circle clip-path="url(#SVGID_2_)" fill="none" stroke="#CABCDC" stroke-width="32" stroke-miterlimit="10" cx="877.694" cy="732.611" r="677.632"/>
+		<circle clip-path="url(#SVGID_2_)" fill="none" stroke="#CABCDC" stroke-width="32" stroke-miterlimit="10" cx="877.694" cy="732.611" r="677.632">
+		<animateTransform attributeName="transform"
+		attributeType="XML"
+		type="rotate"
+		from="0 877 732"
+		to="-360 877 732"
+		dur="2s"
+		repeatCount="2s" />
+		</circle>
 	
-		<circle clip-path="url(#SVGID_2_)" fill="none" stroke="#81CBEB" stroke-width="31.8468" stroke-miterlimit="10" cx="877.694" cy="732.611" r="649.506"/>
+		<circle clip-path="url(#SVGID_2_)" fill="none" stroke="#81CBEB" stroke-width="31.8468" stroke-miterlimit="10" cx="877.694" cy="732.611" r="649.506">
+		<animateTransform attributeName="transform"
+		attributeType="XML"
+		type="rotate"
+		from="0 877 732"
+		to="-360 877 732"
+		dur="2s"
+		repeatCount="2s" />
+		</circle>
 	
-		<circle clip-path="url(#SVGID_2_)" fill="none" stroke="#9FD3A7" stroke-width="32" stroke-miterlimit="10" cx="877.694" cy="732.612" r="622.766"/>
+	
+		<circle clip-path="url(#SVGID_2_)" fill="none" stroke="#9FD3A7" stroke-width="32" stroke-miterlimit="10" cx="877.694" cy="732.612" r="622.766">
+		<animateTransform attributeName="transform"
+		attributeType="XML"
+		type="rotate"
+		from="0 877 732"
+		to="-360 877 732"
+		dur="2s"
+		repeatCount="2s" />
+		</circle>
+	
 	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#FFF682" stroke-width="28.0743" stroke-miterlimit="10" d="
 		M1470.798,733.614c0,328.338-266.167,594.503-594.501,594.503c-328.333,0-594.501-266.165-594.501-594.503
-		c0-328.333,266.168-594.5,594.501-594.5C1204.631,139.114,1470.798,405.282,1470.798,733.614z"/>
+		c0-328.333,266.168-594.5,594.501-594.5C1204.631,139.114,1470.798,405.282,1470.798,733.614z">
+		<animateTransform attributeName="transform"
+		attributeType="XML"
+		type="rotate"
+		from="0 877 732"
+		to="-360 877 732"
+		dur="2s"
+		repeatCount="2s" />
+		</path>
 	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#FBB568" stroke-width="27.9399" stroke-miterlimit="10" d="
 		M1446.122,733.614c0,314.709-255.117,569.828-569.826,569.828c-314.705,0-569.825-255.119-569.825-569.828
-		c0-314.705,255.121-569.825,569.825-569.825C1191.005,163.79,1446.122,418.909,1446.122,733.614z"/>
+		c0-314.705,255.121-569.825,569.825-569.825C1191.005,163.79,1446.122,418.909,1446.122,733.614z">
+		<animateTransform attributeName="transform"
+		attributeType="XML"
+		type="rotate"
+		from="0 877 732"
+		to="-360 877 732"
+		dur="2s"
+		repeatCount="2s" />
+		</path>
 	
-		<circle clip-path="url(#SVGID_2_)" fill="none" stroke="#E6848B" stroke-width="27.8678" stroke-miterlimit="10" cx="876.279" cy="732.636" r="542.348"/>
+		<circle clip-path="url(#SVGID_2_)" fill="none" stroke="#E6848B" stroke-width="27.8678" stroke-miterlimit="10" cx="876.279" cy="732.636" r="542.348">
+		<animateTransform attributeName="transform"
+		attributeType="XML"
+		type="rotate"
+		from="0 877 732"
+		to="-360 877 732"
+		dur="2s"
+		repeatCount="2s" />
+		</circle>
+	
 	<rect x="17.733" y="14.242" clip-path="url(#SVGID_2_)" fill="none" width="1839.184" height="1125.112"/>
 	<rect x="472.322" y="856.083" clip-path="url(#SVGID_2_)" fill="#82CB16" width="893.75" height="142.856"/>
 	<ellipse clip-path="url(#SVGID_2_)" fill="none" cx="883.816" cy="586.228" rx="738.074" ry="547.982"/>

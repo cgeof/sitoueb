@@ -50,6 +50,15 @@
 			<ellipse fill="#D1D3D4" stroke="#D1D3D4" stroke-width="0.9751" stroke-miterlimit="10" cx="715.106" cy="127.197" rx="97.809" ry="46.44"/>
 		
 			<ellipse fill="#D1D3D4" stroke="#D1D3D4" stroke-width="0.9751" stroke-miterlimit="10" cx="811.717" cy="156.967" rx="97.809" ry="46.441"/>
+			<animateTransform attributeName="transform"
+		attributeType="XML"
+		type="rotate"
+		from="-50 0 0"
+		to="0 0 0"
+		dur="2s"
+		repeatCount="2s" />
+
+		
 	</g>
 	<g clip-path="url(#SVGID_2_)">
 		

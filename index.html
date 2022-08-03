@@ -75,50 +75,55 @@
 	<div class="w flex row jcse ">
 		<p>
 			<img alt="" src="lepetitchatdgentoure.svg" style="height: 150px; width: 280px" id="petitgauche"
-				onclick="changeImage()" />
+				onclick="changeImage ('petitgauche', 'content', 'charcanciel.svg', 'lepetitchatdgentoure.svg' )" />
 		</p>
 
 		<p>
 			<img alt="" src="lepetitchatddgentoure.svg" style="height: 150px; width: 280px" id="petitdroit"
-				onclick="changeImage2()" />
+				onclick="changeImage('petitdroit', 'pascontent', 'chafeu.svg', 'lepetitchatddgentoure.svg')" />
 		</p>
 	</div>
 
 	<script>
 
-		function changeImage() {
 
-			let image1 = document.getElementById("petitgauche")
-			let image2 = document.getElementById("content")
 
-			console.log(image1)
-			console.log(image2)
-			
+		function bisou(e, f, g) {
+	if (e) {
+		e.src = f;
+		e.id =  g;
+	}
 
-			if (image1) {
-				console.log("ok")
-				image1.src = "charcanciel.svg";
-				image1.id = "content"
-
-			} 
-
-			if (image2) {
-				console.log("ok")
-				image2.src = "lepetitchatdgentoure.svg";
-				image2.id = "petitgauche"
-
-			} 
-			
-			
-			
-			
 		}
 
-		console.log(document.getElementById("imgClickAndChange").src)
 
-		function changeImage2() {
-			let image3 = document.getElementById("petitdroit")
-			let image4 = document.getElementById("pascontent")
+
+
+
+
+		function changeImage(a, b, c, d) {
+
+			let image1 = document.getElementById(a)
+			let image2 = document.getElementById(b)
+
+			bisou(image1, c, b)
+			bisou(image2, d, a)
+
+
+
+
+
+
+
+
+
+		}
+
+
+
+		/*function changeImage2() {
+			let image1 = document.getElementById("petitdroit")
+			let image2 = document.getElementById("pascontent")
 
 			if (image3) {
 				image3.src = "chafeu.svg";
@@ -134,9 +139,9 @@
 			} 
 				
 
-		}
+		}*/
 
-		
+
 
 	</script>
 

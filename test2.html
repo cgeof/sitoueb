@@ -1,0 +1,72 @@
+<style> .hidden {
+    opacity: 0;
+    position: absolute;
+}
+
+.visible {
+    position: absolute;
+    opacity: 1;
+
+}
+.u {
+
+height: 20px;
+}
+
+</style>
+
+<div class="u">
+
+<div id="v" class="visible"> bonjour </div>
+
+<div id="h" class="hidden"> aurevoir </div>
+</div>
+
+
+<button class="u" onclick="show4()">
+    bouoton
+</buttton>
+
+
+
+
+<script>
+   function show()
+   {
+   
+   console.log("pouet")
+    
+    let mavariable;
+    console.log(mavariable)
+
+    
+    mavariable = document.getElementById("bing")
+    console.log(mavariable)
+
+
+    console.log(document.getElementById("bing"))
+    mavariable.className += " visible"
+}
+
+function show2()
+   {
+    let mavariable;
+    mavariable = document.getElementById("v")
+    mavariable.className = " hidden"
+
+    }
+    function show3()
+   {
+    let mavariable;
+    mavariable = document.getElementById("h")
+    mavariable.className = " visible"
+
+    }
+
+    function show4()
+    {
+        show2()
+        show3()
+    }
+    
+</script>

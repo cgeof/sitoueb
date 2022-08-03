@@ -1,5 +1,5 @@
 body {
-	text-align: center;
+	
 	display:flex ;
 	align-items: center;
 	justify-content: center;
@@ -7,7 +7,6 @@ body {
 	height: 100vh;
 cursor: url('../sitoueb/chatpetit.svg'), auto; 
   }
-  
 
 
   .bg {
@@ -31,9 +30,17 @@ cursor: url('../sitoueb/chatpetit.svg'), auto;
   }
 
 
+.chatlouche {
+	width: 80vh;
+		height: 300px;
+		object-fit: contain;
 
+		
+}
 
-
+.texte {
+	font-size:x-large;
+}
 
 
 @keyframes expouet {
@@ -41,26 +48,29 @@ cursor: url('../sitoueb/chatpetit.svg'), auto;
 	to {background-color: rgb(219, 150, 193);}
   }
 
-p {
- color:rgb(14, 10, 73);
- animation-name: expouet;
- animation-duration: 4s;
- width: 100vw;
-}
+
 
 .lien {
 	color: rgb(165, 59, 124);
 }
 .bisou {
 	color: rgb(165, 59, 124);
-	
+	text-align: center;
 	animation-name: expouet;
 	animation-duration: 10s;
 	background: rgb(173,176,226);
 	background: radial-gradient(circle, rgba(173,176,226,1) 0%, rgba(232,209,230,1) 100%);
 	width: 100vw;
 }
-
+.bisou2 {
+	color: rgb(165, 59, 124);
+font-size: larger;
+	animation-name: expouet;
+	animation-duration: 10s;
+	background: rgb(173,176,226);
+	background: radial-gradient(circle, rgba(173,176,226,1) 0%, rgba(232,209,230,1) 100%);
+	width: 100vw;
+}
 
 
 .zoom {
@@ -123,3 +133,5 @@ p {
 		75%  {background-color:rgb(173,176,226); left:400px; top:150px;}
 		100% {background-color:rgb(173,176,226); left:0px; top:0px;}
 	  }
+
+	  

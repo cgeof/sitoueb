@@ -1,3 +1,28 @@
+
+
+
+
+.jcsb { justify-content: space-between;}
+.jcsa { justify-content: space-around;}
+.jcc { justify-content : center;}
+.jcse { justify-content: space-evenly;}
+
+.flex {display: flex;}
+.col {flex-direction: column;}
+.row {flex-direction: row;}
+.aitcent{align-items: center;}
+.absol{position: absolute;}
+
+.maxh100 {max-height: 100vh;}
+.large {font-size: 20px;}
+
+
+
+
+
+
+
+
 body {
 	
 	display:flex ;
@@ -20,20 +45,16 @@ cursor: url('../sitoueb/chatpetit.svg'), auto;
   }
 
   .fg {
-	position: absolute;
 	min-height: 100vh;
 	min-width: 100vw;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
+
   }
 
 
 .chatlouche {
-	width: 80vh;
-		height: 300px;
-		object-fit: contain;
+
+	height: 28vh;
+	
 
 		
 }
@@ -85,9 +106,9 @@ font-size: larger;
 	}
 	
 	.image1 {
-		width: 450px;
-		height: 450px;
-		object-fit: contain;
+		
+		height: 25vh;
+		
 	cursor: url('../sitoueb/chatnoir100.svg'), auto; 
 		
 		

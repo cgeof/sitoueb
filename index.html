@@ -12,21 +12,21 @@
 
 	<h1 class=" bisou  ">
 		Les petits chats</h1>
-		<h2 class=" blink_me">
-			Qui est le cuicui ?
-		</h2>
+	<h2 class=" blink_me">
+		Qui est le cuicui ?
+	</h2>
 
-	
+
 	<div style="height: 50px"> </div>
-		<img class="image1 zoom " src="DSC00122.JPG">
+	<img class="image1 zoom " src="DSC00122.JPG">
 
-		<div style="height: 100px"> </div>
-	
+	<div style="height: 100px"> </div>
 
-<p class="large">Cliquez sur la bonne réponse pour remporter la cagnotte
-	
-</p>
-<!--<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+
+	<p class="large">Cliquez sur la bonne réponse pour remporter la cagnotte
+
+	</p>
+	<!--<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="997.222px" height="297.223px" viewBox="0 0 997.222 297.223" enable-background="new 0 0 997.222 297.223"
 	 xml:space="preserve" >
 <text transform="matrix(1 0 0 1 129.0396 182.2012)" fill="#010101" stroke="#010101" stroke-miterlimit="10" font-family="'ArialMT'" font-size="69.605">Le petit chat de gauche</text>
@@ -64,48 +64,79 @@
 </svg>-->
 
 	<style>
-		
 		.w {
 			text-align: center;
 			width: 70vw;
+
+
+
+		}
+	</style>
+	<div class="w flex row jcse ">
+		<p>
+			<img alt="" src="lepetitchatdgentoure.svg" style="height: 150px; width: 280px" id="petitgauche"
+				onclick="changeImage()" />
+		</p>
+
+		<p>
+			<img alt="" src="lepetitchatddgentoure.svg" style="height: 150px; width: 280px" id="petitdroit"
+				onclick="changeImage2()" />
+		</p>
+	</div>
+
+	<script>
+
+		function changeImage() {
+
+			let image1 = document.getElementById("petitgauche")
+			let image2 = document.getElementById("content")
+
+			console.log(image1)
+			console.log(image2)
+			
+
+			if (image1) {
+				console.log("ok")
+				image1.src = "charcanciel.svg";
+				image1.id = "content"
+
+			} 
+
+			if (image2) {
+				console.log("ok")
+				image2.src = "lepetitchatdgentoure.svg";
+				image2.id = "petitgauche"
+
+			} 
+			
 			
 			
 			
 		}
-	</style>
-<div class="w flex row jcse ">
-	<p>
-		<img alt="" src="./lepetitchatdgentoure.svg" 
-			style="height: 150px; width: 280px" id="imgClickAndChange" onclick="changeImage()"/>
-	</p>
-	
-	<p>
-		<img alt="" src="./lepetitchatddgentoure.svg" 
-			style="height: 150px; width: 280px" id="imgClickAndChange2" onclick="changeImage2()"/>
-	</p>
-	</div>
-
-<script>
-
-function changeImage() {
-    if (document.getElementById("imgClickAndChange").src == "./lepetitchatdgentoure.svg"){
-        document.getElementById("imgClickAndChange").src = "./charcanciel.svg";
-    } else {
-        document.getElementById("imgClickAndChange").src = "./lepetitchatdgentoure.svg";
-    }
-		}	
 
 		console.log(document.getElementById("imgClickAndChange").src)
 
-function changeImage2() {
-    if (document.getElementById("imgClickAndChange2").src == "./lepetitchatddgentoure.svg"){
-        document.getElementById("imgClickAndChange2").src = "./chafeu.svg";
-    } else {
-        document.getElementById("imgClickAndChange2").src = "./lepetitchatddgentoure.svg";
-    }
-		}	
+		function changeImage2() {
+			let image3 = document.getElementById("petitdroit")
+			let image4 = document.getElementById("pascontent")
 
-		console.log(document.getElementById("imgClickAndChange2").src)
+			if (image3) {
+				image3.src = "chafeu.svg";
+				image3.id = "pascontent"
+
+			} 
+
+			if (image4) {
+				console.log("ok")
+				image4.src = "lepetitchatddgentoure.svg";
+				image4.id = "petitdroit"
+
+			} 
+				
+
+		}
+
+		
 
 	</script>
 
@@ -209,15 +240,15 @@ function changeImage2() {
 			<a class="lien test blink_me" href="./lapin.html"
 		> Lien vers les indices</a>-->
 
-			<marquee class=" bisou2">
+	<marquee class=" bisou2">
 
-				Bientôt plus de quizz sur les petits chats pour toujours plus de rigolade entre amis
-			</marquee>
-
-
+		Bientôt plus de quizz sur les petits chats pour toujours plus de rigolade entre amis
+	</marquee>
 
 
-			<img class="chatlouche" src="chatloucheok.svg">
+
+
+	<img class="chatlouche" src="chatloucheok.svg">
 
 
 </div>

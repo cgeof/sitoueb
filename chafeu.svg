@@ -12,13 +12,28 @@
 		<use xlink:href="#SVGID_1_"  overflow="visible"/>
 	</clipPath>
 	<polygon clip-path="url(#SVGID_2_)" fill="#FFE100" stroke="#FFE100" stroke-miterlimit="10" points="426.112,248.131 
-		523.821,263.07 454.765,383.054 485.689,284.679 374.868,267.285 435.52,209.706 288.354,184.821 479.854,192.842 	"/>
+		523.821,263.07 454.765,383.054 485.689,284.679 374.868,267.285 435.52,209.706 288.354,184.821 479.854,192.842 	">
+		<animate
+            attributeType="XML"
+            attributeName="fill"
+            values="#800;#f00;#800;#800"
+            dur="0.8s"
+            repeatCount="indefinite"/>
+        </polygon>
 	<polygon clip-path="url(#SVGID_2_)" fill="#FFE100" stroke="#FFE100" stroke-miterlimit="10" points="760.112,385.131 
 		857.821,400.07 788.765,520.054 819.689,421.679 708.868,404.285 769.52,346.706 622.354,321.821 813.854,329.842 	"/>
 	<polygon clip-path="url(#SVGID_2_)" fill="#FFE100" stroke="#FFE100" stroke-miterlimit="10" points="723.378,234.074 
 		819.788,212.278 799.347,349.199 792.188,246.326 682.674,270.628 718.093,194.869 572.011,225.478 753.2,162.972 	"/>
 	<polygon clip-path="url(#SVGID_2_)" fill="#F47B3D" stroke="#F47B3D" stroke-miterlimit="10" points="752.112,342.131 
-		849.821,357.07 780.765,477.054 811.689,378.679 700.868,361.285 761.52,303.706 614.354,278.821 805.854,286.842 	"/>
+		849.821,357.07 780.765,477.054 811.689,378.679 700.868,361.285 761.52,303.706 614.354,278.821 805.854,286.842 	">
+<animate
+            attributeType="XML"
+            attributeName="fill"
+            values="#800;#f00;#800;#800"
+            dur="0.8s"
+            repeatCount="indefinite"/>
+        </polygon>
+
 	<polygon clip-path="url(#SVGID_2_)" fill="#FFBD31" points="615.269,241.921 710.337,214.866 697.442,352.702 684.648,250.377 
 		576.633,280.653 607.84,203.064 463.658,241.646 641.144,169.288 	"/>
 	<polygon clip-path="url(#SVGID_2_)" fill="#F47B3D" stroke="#F47B3D" stroke-miterlimit="10" points="511.526,228.895 
